@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{833E5633-C008-4601-B736-16D4BE04A813}|Default">
+  <MonoDevelop.Ide.ItemProperties.Joke__List FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Joke__List.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Joke_List/Constants.cs">
+    <Files>
+      <File FileName="Joke_List/Data/JokeItemDatabase.cs" Line="2" Column="1" />
+      <File FileName="Joke_List/Constants.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Joke_List" expanded="True">
+            <Node name="Joke_List" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Constants.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Joke__List.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
