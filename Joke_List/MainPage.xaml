@@ -1,7 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Joke_List.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Joke_List.Models" mc:Ignorable="d" x:Class="Joke_List.MainPage">
+
+    <StackLayout Margin="15">
+        
+        <Label Text="Dad Jokes" FontSize="Large" BackgroundColor="Blue" TextColor="White" HorizontalOptions="Center" Margin="30" Padding="10"/>
+
+        <StackLayout Margin="10" VerticalOptions="StartAndExpand">
+            <Label Text="Enter Joke"/>
+            <Entry x:Name="jokeContent" Text="{Binding JokeContent}"/>
+            <Button x:Name="Add" Text="Add" Clicked="Add_Clicked"/>
+        </StackLayout>
+        <ListView x:Name="jokes" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <Label Text="{Binding JokeContent}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" Padding="10" LineBreakMode="WordWrap"/>
+                            <Button x:Name="Delete" Text="Delete" TextColor="Red" HorizontalOptions="EndAndExpand" Clicked="Delete_Clicked" CommandParameter="{Binding .}" Padding="10"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </StackLayout>
 </ContentPage>

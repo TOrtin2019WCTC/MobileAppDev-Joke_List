@@ -1,0 +1,13 @@
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/Joke_List.csprojAssemblyReference.cache
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/Joke_List.AssemblyInfoInputs.cache
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/Joke_List.AssemblyInfo.cs
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/bin/Debug/netstandard2.0/Joke_List.deps.json
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/bin/Debug/netstandard2.0/Joke_List.dll
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/bin/Debug/netstandard2.0/ref/Joke_List.dll
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/bin/Debug/netstandard2.0/Joke_List.pdb
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/Joke_List.dll
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/ref/Joke_List.dll
+/Users/tim/Desktop/Repos/Joke_List/Joke_List/obj/Debug/netstandard2.0/Joke_List.pdb
